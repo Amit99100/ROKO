@@ -1,0 +1,17 @@
+1st : https://youtu.be/lpKwgOpxpqg ( source for learning )
+=> remeber we added fileName in the pom.xml
+=> 	<build>
+   		<finalName>demo</finalName>
+
+=> and see docker file . you can run without the docker file , it will be easy to do so with
+the docker . as you did without the docker file
+you ran springboot ( docker image servcie ) on  a docker run jdk enrionment ( java 17 ) .
+Here This project focus on the how to build with docker , so write docker file
+the use the command
+
+=>Docker build -t amit/demo:latest .  ( to buiild the image ).
+
+
+
+=> docker run -p 8080:8080 amit/Demo:latest  ( to run that image ).
+
